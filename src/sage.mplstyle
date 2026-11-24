@@ -1,0 +1,35 @@
+# Sage color theme shared by all project figures
+figure.facecolor: FFFFFF
+figure.dpi: 150
+savefig.dpi: 200
+savefig.bbox: tight
+savefig.facecolor: FFFFFF
+font.family: sans-serif
+font.sans-serif: Calibri, Carlito, DejaVu Sans
+font.size: 12
+text.color: 24332C
+axes.facecolor: FFFFFF
+axes.edgecolor: C9DDD0
+axes.labelcolor: 24332C
+axes.titlesize: 14
+axes.titleweight: bold
+axes.titlecolor: 24332C
+axes.titlelocation: left
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.grid.axis: y
+axes.axisbelow: True
+axes.prop_cycle: cycler('color', ['2F4A3E', '6B9A80', 'C98B4E', 'A9C7B5', '5E6B66'])
+grid.color: E3ECE6
+grid.linewidth: 0.8
+xtick.color: 24332C
+ytick.color: 24332C
+xtick.labelsize: 11
+ytick.labelsize: 11
+legend.frameon: False
+legend.fontsize: 11
+lines.linewidth: 2.2
+lines.markersize: 6
+image.cmap: Greens
+text.parse_math: False

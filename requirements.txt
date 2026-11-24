@@ -1,0 +1,13 @@
+# Python 3.14. Install with uv (or pip) into .venv:
+#   uv venv .venv && uv pip install --python .venv/bin/python -r requirements.txt
+# cuML comes from NVIDIA's package index; it needs an NVIDIA GPU with a CUDA 13 driver.
+--extra-index-url https://pypi.nvidia.com
+pandas
+pyarrow
+numpy
+scikit-learn==1.9.1
+matplotlib
+openpyxl
+cuml-cu13==26.10.*
+defusedxml
+ipykernel

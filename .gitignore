@@ -1,0 +1,22 @@
+# Kaggle Zillow Prize data — not redistributable, too large for git
+data/
+*.csv
+*.zip
+*.xlsx
+
+# Generated outputs (rebuild with the scripts in src/)
+results/
+figures/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Course handout — tracked in the parent SchoolFiles repo instead
+Final Project.docx
+
+# Editor / OS
+.~lock.*#
+.DS_Store
